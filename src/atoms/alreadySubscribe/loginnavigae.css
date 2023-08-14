@@ -1,0 +1,47 @@
+@import '../../assets/css/variable.css';
+
+.already-subscribe-login {
+  background-image: url('../../assets/images/Mask.svg');
+  background-size: cover;
+  width: auto;
+  padding: 20px 20px 30px 20px;
+}
+
+.already-subscribe-login a {
+  color: var(--primary-color);
+}
+
+.already-subscriber {
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 10px;
+  @media (max-width: 1800px) {
+    font-size: 18px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 16px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+  @media (max-width: 900px) {
+    font-size: 12px;
+  }
+}
+
+.already-subscribe-login a span {
+  font-size: 12px;
+  font-weight: 600;
+  @media (max-width: 1800px) {
+    font-size: 20px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 18px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+}
