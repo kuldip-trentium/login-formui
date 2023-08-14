@@ -6,12 +6,12 @@
   padding: 15px 20px;
   border-radius: 10px;
   @media (max-width: 800px) {
-    width: 80%;
-    margin: 15px auto;
+    width: 82%;
+    margin: 10px auto;
   }
   @media (max-width: 600px) {
     width: 80%;
-    margin: 15px auto;
+    margin: 10px auto;
   }
 }
 
@@ -21,4 +21,16 @@
   margin: auto;
   color: var(--continue-btn-text-color);
   font-weight: 600;
+  @media (max-width: 1800px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 900px) {
+    font-size: 13px;
+  }
 }

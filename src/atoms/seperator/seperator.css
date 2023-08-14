@@ -17,6 +17,9 @@ p {
   @media (max-width: 800px) {
     width: 85%;
   }
+  @media (max-width: 600px) {
+    width: 80%;
+  }
 }
 
 p:before,
