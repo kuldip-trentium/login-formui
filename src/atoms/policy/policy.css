@@ -1,0 +1,33 @@
+@import '../../assets/css/variable.css';
+
+.login-form-footer {
+  font-size: 10px;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 20px;
+
+  @media (max-width: 1800px) {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  @media (max-width: 900px) {
+    font-size: 11px;
+    margin-top: 30px;
+  }
+  @media (max-width: 800px) {
+    margin-top: 5px;
+  }
+}
+
+.login-form-footer-upper {
+  color: var(--footer-upper-color);
+}

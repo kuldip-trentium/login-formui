@@ -1,0 +1,59 @@
+@import '../../assets/css/variable.css';
+
+.name-email-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 00px 20px 07px 20px;
+  padding: 15px 50px 15px 0px;
+  background-color: var(--input-bg-color) !important;
+  gap: 10px;
+
+  @media (max-width: 1800px) {
+    width: 25%;
+  }
+  @media (max-width: 800px) {
+    width: 80%;
+    margin: 5px auto;
+    padding: 23px 50px 23px 0px;
+  }
+  @media (max-width: 600px) {
+    width: 76%;
+    margin: 5px auto;
+  }
+}
+
+.name-email-input input {
+  background: none;
+  border: none;
+  width: 80%;
+
+  @media (max-width: 1800px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 900px) {
+    font-size: 13px;
+  }
+}
+
+.name-email-input input:focus {
+  border: none;
+}
+
+.name-email-input input::placeholder {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.name-email-input input:focus {
+  outline: none;
+  border-color: transparent;
+  color: var(--primary-color);
+}
