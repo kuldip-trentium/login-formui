@@ -1,7 +1,7 @@
 import React from 'react'
 import Input from '../../atoms/inputs/Input'
-import Continue from '../../atoms/continueButton/Continue'
 import './logincustominput.css'
+import Button from '../../atoms/buttons/Button'
 
 const LoginCustomInput = () => {
   return (
@@ -9,7 +9,7 @@ const LoginCustomInput = () => {
       <div className='custom-inputs'>
         <Input type='text' placeholder='Name' />
         <Input type='email' placeholder='Email' />
-        <Continue />
+        <Button text='Continue'></Button>
 
       </div>
 

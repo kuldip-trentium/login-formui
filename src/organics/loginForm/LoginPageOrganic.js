@@ -5,12 +5,16 @@ import LoginCustomInput from '../../molecules/loginWithCustomInput/LoginCustomIn
 import profile from '../../../src/assets/images/Profile.svg'
 import './loginpage.css'
 import PolicyAndLogin from '../../molecules/policyAndLogin/PolicyAndLogin'
+import Text from '../../atoms/Text/Text'
 const LoginPageOrganic = () => {
   return (
     <>
       <div className='login-form'>
         <img src={profile} alt='profile-img' className='profile-img' />
-        <div className='form-heading'>Create an Account</div>
+
+      </div>
+      <div className='login-form-fields'>
+        <Text text='Create an Account' heading={true} />
 
         <LoginResourse />
 

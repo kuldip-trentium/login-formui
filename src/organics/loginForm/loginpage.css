@@ -1,5 +1,8 @@
 @import '../../assets/css/variable.css';
-
+.login-form-fields {
+  position: relative;
+  background: transparent;
+}
 .login-form {
   position: absolute;
   top: 20%;
@@ -10,6 +13,7 @@
   );
   background-size: cover;
   border-radius: 30px 30px 0px 0px;
+  height: 80%;
 }
 .profile-img {
   position: absolute;
@@ -17,31 +21,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-}
-.form-heading {
-  color: var(--primary-color);
-  margin-top: 60px;
-  font-size: 21px;
-
-  @media (max-width: 1800px) {
-    font-size: 50px;
-  }
-  @media (max-width: 1600px) {
-    font-size: 45px;
-  }
-  @media (max-width: 1400px) {
-    font-size: 40px;
-  }
-  @media (max-width: 1200px) {
-    font-size: 35px;
-  }
-  @media (max-width: 1000px) {
-    font-size: 30px;
-  }
-  @media (max-width: 800px) {
-    font-size: 25px;
-  }
-  @media (max-width: 600px) {
-    font-size: 21px;
-  }
 }

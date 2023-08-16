@@ -1,5 +1,5 @@
 .login-outside-resource {
-  margin-top: 20px;
+  margin-top: 50px;
   @media (max-width: 1800px) {
     display: flex;
     justify-content: center;

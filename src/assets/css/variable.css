@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
-  --primary-color: #FFFFFF;
+  --primary-color: #ffffff;
   --login-page-color: #060613;
   --input-bg-color: #272341;
-  --continue-btn-bg-color: #3D414B;
-  --continue-btn-text-color: #1C1E2E;
-  --footer-upper-color: #6C6D78;
-  --first-border-gradiant: #181B47;
-  --second-border-gradiant: #12173E;
-  --or-color:#8a8da2;
-  
+  --continue-btn-bg-color: #3d414b;
+  --continue-btn-text-color: #1c1e2e;
+  --normal-text-color: #6c6d78;
+  --first-border-gradiant: #181b47;
+  --second-border-gradiant: #12173e;
+  --or-color: #8a8da2;
 }

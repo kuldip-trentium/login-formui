@@ -1,13 +1,12 @@
 @import '../../assets/css/variable.css';
 
-.login-google-facebook {
-  border: 2px solid var(--primary-color);
+.login-buttons {
   background: linear-gradient(#191945, #131a40) padding-box,
-    linear-gradient(60deg, #c8ffe0, var(--footer-upper-color)) border-box;
-  border: 2px solid transparent;
+    linear-gradient(60deg, #c8ffe0, #6c6d78) border-box;
   padding: 20px 50px 20px 10px;
   border-radius: 10px;
   margin: 0px 20px 7px 20px;
+  border: 2px solid transparent;
   @media (max-width: 800px) {
     width: 80%;
   }
@@ -17,7 +16,7 @@
   }
 }
 
-.login-google-btn {
+/* .login-form-btn {
   background: transparent;
   color: var(--primary-color);
   margin-left: 30px;
@@ -51,8 +50,8 @@
     gap: 45px;
     margin-left: 20px;
   }
-}
-.login-facebook-btn {
+} */
+.login-form-btn {
   background: transparent;
   color: var(--primary-color);
   margin-left: 28px;
@@ -82,8 +81,45 @@
     margin: auto;
   }
   @media (max-width: 450px) {
-    font-size: 13px;
+    font-size: 15px;
     gap: 38px;
     margin-left: 18px;
+  }
+}
+
+/* css for regular button */
+.continue-btn {
+  background: var(
+    --fill-gradinet-3,
+    linear-gradient(135deg, #4b4353, 0%, #3c404b 100%)
+  );
+  border-radius: 10px;
+  padding: 15px 20px;
+  @media (max-width: 800px) {
+    width: 86%;
+    margin: 10px auto;
+  }
+  @media (max-width: 600px) {
+    width: 77%;
+  }
+}
+
+.regular-btn {
+  background: none;
+  border: none;
+  margin: auto;
+  color: var(--continue-btn-text-color);
+  font-weight: 800;
+  @media (max-width: 1800px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 900px) {
+    font-size: 13px;
   }
 }
