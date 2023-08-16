@@ -6,11 +6,11 @@
   padding: 15px 20px;
   border-radius: 10px;
   @media (max-width: 800px) {
-    width: 82%;
+    width: 84%;
     margin: 10px auto;
   }
   @media (max-width: 600px) {
-    width: 80%;
+    width: 76%;
     margin: 10px auto;
   }
 }

@@ -14,12 +14,12 @@
     width: 25%;
   }
   @media (max-width: 800px) {
-    width: 80%;
+    width: 82%;
     margin: 5px auto;
     padding: 23px 50px 23px 0px;
   }
   @media (max-width: 600px) {
-    width: 76%;
+    width: 74%;
     margin: 5px auto;
   }
 }
