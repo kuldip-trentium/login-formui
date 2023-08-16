@@ -1,8 +1,10 @@
 @import '../../assets/css/variable.css';
 
 .continue-btn {
-  background-color: var(--continue-btn-bg-color);
-  /* margin: 20px 20px 10px 20px; */
+  background: var(
+    --fill-gradinet-3,
+    linear-gradient(135deg, #4b4353, 0%, #3c404b 100%)
+  );
   padding: 15px 20px;
   border-radius: 10px;
   @media (max-width: 800px) {
@@ -20,7 +22,7 @@
   border: none;
   margin: auto;
   color: var(--continue-btn-text-color);
-  font-weight: 600;
+  font-weight: 800;
   @media (max-width: 1800px) {
     font-size: 24px;
   }

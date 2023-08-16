@@ -3,66 +3,33 @@
   position: relative;
   background-color: var(--login-page-color);
   @media (max-width: 1800px) {
-    height: 73vh;
+    height: 65vh;
   }
+
   @media (max-width: 800px) {
-    height: 100vh;
+    height: 88vh;
   }
 }
 .background-shadow-img {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
-  opacity: 0.5;
-
+  width: 90%;
+  opacity: 1;
+  background: var(
+    --fill-gradinet-3,
+    linear-gradient(135deg, rgba(23, 15, 40, 255), rgba(12, 11, 40, 255))
+  );
+  height: 20px;
+  border-radius: 20px 20px 00px 00px;
   @media (max-width: 1800px) {
-    top: 44%;
-  }
-  @media (max-width: 1700px) {
-    top: 40%;
-  }
-  @media (max-width: 1600px) {
-    top: 40%;
-  }
-  @media (max-width: 1500px) {
-    top: 39%;
-  }
-  @media (max-width: 1400px) {
-    top: 38%;
-  }
-  @media (max-width: 1300px) {
-    top: 36%;
-  }
-  @media (max-width: 1200px) {
-    top: 34%;
-  }
-  @media (max-width: 1100px) {
-    top: 34%;
-  }
-  @media (max-width: 1000px) {
-    top: 32%;
-  }
-  @media (max-width: 900px) {
-    top: 30%;
+    width: 96%;
   }
   @media (max-width: 800px) {
-    top: 26%;
-  }
-  @media (max-width: 700px) {
-    top: 26%;
+    width: 95%;
   }
   @media (max-width: 600px) {
-    top: 25%;
-  }
-  @media (max-width: 500px) {
-    top: 24%;
-  }
-  @media (max-width: 450px) {
-    top: 23%;
-  }
-  @media (max-width: 400px) {
-    top: 23%;
+    width: 91%;
   }
 }

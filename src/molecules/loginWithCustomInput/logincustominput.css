@@ -3,10 +3,12 @@
   @media (max-width: 1800px) {
     display: flex;
     justify-content: center;
+    gap: 50px;
   }
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 00px;
   }
 }

@@ -7,8 +7,8 @@ import './loginresourse.css'
 const LoginResourse = () => {
   return (
     <div className='login-outside-resource'>
-      <Button img={google} text='Continue with Google' alt='google-img' />
-      <Button img={facebook} text='Continue with Facebook' alt='facebook-img' />
+      <Button img={google} text='Continue with Google' alt='google-img' isFacebook={false} />
+      <Button img={facebook} text='Continue with Facebook' alt='facebook-img' isFacebook={true} />
     </div>
   )
 }

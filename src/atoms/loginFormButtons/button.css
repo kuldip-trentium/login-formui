@@ -2,17 +2,14 @@
 
 .login-google-facebook {
   border: 2px solid var(--primary-color);
-  background: linear-gradient(#181b47, #12173e) padding-box,
+  background: linear-gradient(#191945, #131a40) padding-box,
     linear-gradient(60deg, #c8ffe0, var(--footer-upper-color)) border-box;
   border: 2px solid transparent;
   padding: 20px 50px 20px 10px;
   border-radius: 10px;
   margin: 0px 20px 7px 20px;
-
   @media (max-width: 800px) {
     width: 80%;
-    padding: 20px 50px 20px 10px;
-    /* padding: 50px; */
   }
   @media (max-width: 600px) {
     width: 70%;
@@ -20,15 +17,15 @@
   }
 }
 
-.login-google-facebook-button {
+.login-google-btn {
   background: transparent;
   color: var(--primary-color);
-  margin: auto;
+  margin-left: 30px;
   border: none;
   display: flex;
-  gap: 30px;
+  gap: 60px;
   align-items: center;
-  font-size: 12px;
+  font-size: 10px;
 
   @media (max-width: 1800px) {
     font-size: 24px;
@@ -41,5 +38,52 @@
   }
   @media (max-width: 900px) {
     font-size: 17px;
+  }
+  @media (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
+  }
+  @media (max-width: 450px) {
+    font-size: 13px;
+    gap: 45px;
+    margin-left: 20px;
+  }
+}
+.login-facebook-btn {
+  background: transparent;
+  color: var(--primary-color);
+  margin-left: 28px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  gap: 50px;
+
+  @media (max-width: 1800px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 900px) {
+    font-size: 17px;
+  }
+  @media (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
+  }
+  @media (max-width: 450px) {
+    font-size: 13px;
+    gap: 38px;
+    margin-left: 18px;
   }
 }
