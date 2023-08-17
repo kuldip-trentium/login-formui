@@ -7,7 +7,6 @@ const Text = (props) => {
       <div className={isHeading === true ? 'form-heading' : 'normal-text'}>
         <span>{props.text}</span>
       </div>
-
     </div>
   )
 }
