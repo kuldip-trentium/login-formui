@@ -7,11 +7,7 @@ const Login = () => {
   return (
     <div className='screen'>
       <LoginTemplate />
-
     </div >
-
-
   )
 }
-
 export default Login

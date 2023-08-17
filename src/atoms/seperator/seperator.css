@@ -2,6 +2,12 @@
 
 .seperator {
   margin: 35px 0px;
+  @media (max-width: 1800px) {
+    margin: 100px 0px;
+  }
+  @media (max-width: 800px) {
+    margin: 60px 0px;
+  }
   @media (max-width: 600px) {
     margin: 50px 0px;
   }
@@ -18,10 +24,10 @@ p {
     width: 75%;
   }
   @media (max-width: 1200px) {
-    width: 82%;
+    width: 85%;
   }
   @media (max-width: 800px) {
-    width: 88%;
+    width: 86%;
   }
   @media (max-width: 600px) {
     width: 83%;

@@ -2,5 +2,16 @@
 .login-form-fields {
   position: relative;
   background: transparent;
-  padding-top: 230px;
+  @media (max-width: 1800px) {
+    padding-top: 350px;
+  }
+  @media (max-width: 800px) {
+    padding-top: 250px;
+  }
+  @media (max-width: 600px) {
+    padding-top: 250px;
+  }
+  @media (max-width: 400px) {
+    padding-top: 230px;
+  }
 }
