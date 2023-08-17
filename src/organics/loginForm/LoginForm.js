@@ -1,23 +1,22 @@
 import React from 'react'
-import LoginResourse from '../../molecules/LoginWithResources/LoginResourse'
+import LoginSocialMedia from '../../molecules/LoginSocialMedia/LoginSocialMedia'
 import Seperator from '../../atoms/seperator/Seperator'
-import LoginCustomInput from '../../molecules/loginWithCustomInput/LoginCustomInput'
-import './loginpage.css'
+import Form from '../../molecules/form/Form'
 import PolicyAndLogin from '../../molecules/policyAndLogin/PolicyAndLogin'
 import Text from '../../atoms/Text/Text'
 import BackGround from '../../atoms/backgroundWithLogo/BackGround'
+import './loginform.css'
+import profile from '../../../src/assets/images/Profile.svg'
 const LoginPageOrganic = () => {
   return (
     <>
       <BackGround isLogo={true} />
+      <img src={profile} alt='profile-img' className='profile-img' />
       <div className='login-form-fields'>
-        <Text text='Create an Account' heading={true} />
-
-        <LoginResourse />
-
+        <Text text='Create an Account' classAddOn='form-heading' />
+        <LoginSocialMedia />
         <Seperator text='Or' />
-
-        <LoginCustomInput />
+        <Form />
         <PolicyAndLogin />
       </div>
     </>

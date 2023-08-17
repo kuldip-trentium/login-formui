@@ -22,6 +22,10 @@
     margin: 4px auto;
   }
 }
+.formik-input {
+  color: var(--primary-color);
+  background: transparent;
+}
 
 .name-email-input input {
   background: none;

@@ -11,12 +11,10 @@ const Input = (props) => {
       <div className='name-email-input'>
         <img src={user} alt='user img' />
         <Field
-          type={props.type}
-          placeholder={props.placeholder}
           name={props.name}
           id={props.name}
           className='formik-input'
-          style={{color: 'white'}}
+          {...props}
         />
       </div>
       <ErrorMessage name={props.name} component='div' className='error-message' />
