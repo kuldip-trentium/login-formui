@@ -8,7 +8,7 @@ const PolicyAndLogin = () => {
   return (
     <>
       <div className='terms-agree-documents'>
-        <Text text='By using the app,I agree to The Sport' heading={false} />
+        <Text text='By using the app, I agree to The Sport' heading={false} />
         <Link text='Terms of Services & Privacy Policy' />
       </div>
       <LoginNavigate />
