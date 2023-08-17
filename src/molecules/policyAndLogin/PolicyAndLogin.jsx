@@ -11,7 +11,7 @@ const PolicyAndLogin = () => {
         <Text text='By using the app, I agree to The Sport' heading={false} />
         <Link text='Terms of Services & Privacy Policy' />
       </div>
-      <LoginNavigate />
+      <LoginNavigate text='Already a Subscriber?' linkText='Log In' />
     </>
   )
 }

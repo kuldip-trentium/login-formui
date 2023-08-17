@@ -1,10 +1,10 @@
 import React from 'react'
 import './loginnavigae.css'
 
-const LoginNavigate = () => {
+const LoginNavigate = (props) => {
   return (
     <div className='already-subscribe-login'>
-      <a href='#/login' className='already-subscriber'>Already a Subscriber? <span>Log In </span></a>
+      <a href='#/login' className='already-subscriber'>{props.text}<span>{props.linkText} </span></a>
     </div>
   )
 }

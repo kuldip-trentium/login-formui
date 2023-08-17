@@ -51,6 +51,7 @@
 
 .already-subscribe-login a span {
   font-size: 12px;
+  padding-left: 3px;
   font-weight: 600;
   @media (max-width: 1800px) {
     font-size: 20px;
