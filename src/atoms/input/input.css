@@ -67,5 +67,8 @@
   color: var(--primary-color);
 }
 .error-message {
-  color: #dfccfb;
+  color: #c70039;
+  width: 83%;
+  text-align: left;
+  margin: auto;
 }
