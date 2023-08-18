@@ -1,11 +1,11 @@
 import React from 'react'
 import Input from '../../atoms/input/Input'
-import './form.css'
+import './registrationform.css'
 import Button from '../../atoms/button/Button'
 import {Formik, Form} from 'formik';
 import * as Yup from 'yup';
 import user from '../../assets/images/User.svg'
-const FormFields = () => {
+const RegistartionForm = () => {
   const handleSubmit = (values) => {
     console.log(values);
   };
@@ -34,4 +34,4 @@ const FormFields = () => {
   )
 }
 
-export default FormFields
+export default RegistartionForm

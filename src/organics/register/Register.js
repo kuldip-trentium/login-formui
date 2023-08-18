@@ -1,7 +1,7 @@
 import React from 'react'
 import RegisterSocialMedia from '../../molecules/registersocialmedia/RegisterSocialMedia'
 import Seperator from '../../atoms/seperator/Seperator'
-import Form from '../../molecules/form/Form'
+import RegistartionForm from '../../molecules/registrationform/RegistartionForm'
 import PolicyAndLogin from '../../molecules/policyAndLogin/PolicyAndLogin'
 import Text from '../../atoms/Text/Text'
 import BackGround from '../../atoms/background/BackGround'
@@ -17,7 +17,7 @@ const Register = () => {
         <Text text='Create an Account' headingStyle='form-heading' />
         <RegisterSocialMedia />
         <Seperator text='Or' />
-        <Form />
+        <RegistartionForm />
         <PolicyAndLogin />
       </div>
     </>
