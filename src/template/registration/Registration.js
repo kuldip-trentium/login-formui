@@ -1,5 +1,5 @@
 import React from 'react'
-import RegistartionForm from '../../organics/registrationform/Register'
+import RegistartionForm from '../../organics/register/Register'
 import './registration.css'
 
 const Registration = () => {
