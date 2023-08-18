@@ -3,7 +3,6 @@ import './input.css'
 import {Field, ErrorMessage} from 'formik';
 
 const Input = (props) => {
-
   return (
     <>
       <div className='name-email-input'>
