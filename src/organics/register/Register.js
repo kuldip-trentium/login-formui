@@ -10,7 +10,7 @@ import profile from '../../../src/assets/images/Profile.svg'
 const Register = () => {
   return (
     <>
-      <BackGround isLogo={true} />
+      <BackGround />
       <div className='background-light' />
       <img src={profile} alt='profile-img' className='profile-img' />
       <div className='login-form-fields'>
@@ -19,7 +19,6 @@ const Register = () => {
         <Seperator text='Or' />
         <Form />
         <PolicyAndLogin />
-
       </div>
     </>
   )
