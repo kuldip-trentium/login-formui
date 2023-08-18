@@ -1,5 +1,5 @@
 import React from 'react'
-import RegisterSocialMedia from '../../molecules/registersocialmedia/RegisterSocialMedia'
+import RegisterWithSocialMedia from '../../molecules/registerwithsocialmedia/RegisterWithSocialMedia'
 import Seperator from '../../atoms/seperator/Seperator'
 import RegistartionForm from '../../molecules/registrationform/RegistartionForm'
 import PolicyAndLogin from '../../molecules/policyAndLogin/PolicyAndLogin'
@@ -15,7 +15,7 @@ const Register = () => {
       <img src={profile} alt='profile-img' className='profile-img' />
       <div className='login-form-fields'>
         <Text text='Create an Account' headingStyle='form-heading' />
-        <RegisterSocialMedia />
+        <RegisterWithSocialMedia />
         <Seperator text='Or' />
         <RegistartionForm />
         <PolicyAndLogin />

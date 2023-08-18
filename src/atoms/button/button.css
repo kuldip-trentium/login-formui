@@ -1,5 +1,5 @@
 @import '../../assets/css/variable.css';
-.login-buttons {
+.btn-img {
   background: linear-gradient(#191945, #131a40) padding-box,
     linear-gradient(60deg, #c8ffe0, #6c6d78) border-box;
   padding: 20px 50px 20px 10px;
@@ -14,10 +14,10 @@
     margin: 0px 30px 7px 30px;
   }
 }
-.login-buttons img {
+.btn-img img {
   width: 20px;
 }
-.login-buttons span {
+.btn-img span {
   @media (max-width: 1800px) {
     width: 90%;
   }
