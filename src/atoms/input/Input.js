@@ -6,7 +6,7 @@ const Input = (props) => {
   return (
     <>
       <div className='name-email-input'>
-        <img src={props.image} alt='user img' />
+        <img src={props.image || ''} alt={props.image || ''} />
         <Field
           name={props.name}
           id={props.name}

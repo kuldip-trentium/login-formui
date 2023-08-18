@@ -2,7 +2,7 @@ import React from 'react'
 import './link.css'
 const Link = (props) => {
   return (
-    <a href={props.link || '#'} className={props.classAddOn || 'link'} >{props.text}</a>
+    <a href={props.navigateTo || '#'} className={props.linkStyle || `link ${props.classAddOn}`} >{props.text}</a>
   )
 }
 

@@ -19,6 +19,7 @@ const Register = () => {
         <Seperator text='Or' />
         <Form />
         <PolicyAndLogin />
+
       </div>
     </>
   )
