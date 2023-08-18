@@ -4,7 +4,7 @@ import './seperator.css'
 const Seperator = (props) => {
   return (
     <div className='seperator'>
-      <p className='or-text'>{props.text}</p>
+      <p className={props.classAddOn || 'or-text'}>{props.text}</p>
     </div>
   )
 }

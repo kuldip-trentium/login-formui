@@ -1,20 +1,21 @@
 import React from 'react'
-import LoginSocialMedia from '../../molecules/LoginSocialMedia/LoginSocialMedia'
+import RegisterSocialMedia from '../../molecules/registersocialmedia/RegisterSocialMedia'
 import Seperator from '../../atoms/seperator/Seperator'
 import Form from '../../molecules/form/Form'
 import PolicyAndLogin from '../../molecules/policyAndLogin/PolicyAndLogin'
 import Text from '../../atoms/Text/Text'
-import BackGround from '../../atoms/backgroundWithLogo/BackGround'
-import './loginform.css'
+import BackGround from '../../atoms/background/BackGround'
+import './register.css'
 import profile from '../../../src/assets/images/Profile.svg'
-const LoginPageOrganic = () => {
+const Register = () => {
   return (
     <>
       <BackGround isLogo={true} />
+      <div className='background-light' />
       <img src={profile} alt='profile-img' className='profile-img' />
       <div className='login-form-fields'>
         <Text text='Create an Account' classAddOn='form-heading' />
-        <LoginSocialMedia />
+        <RegisterSocialMedia />
         <Seperator text='Or' />
         <Form />
         <PolicyAndLogin />
@@ -23,4 +24,4 @@ const LoginPageOrganic = () => {
   )
 }
 
-export default LoginPageOrganic
+export default Register

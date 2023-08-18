@@ -15,7 +15,7 @@
     margin: 20px 0px;
   }
 }
-p {
+.or-text {
   display: flex;
   flex-direction: row;
   width: 90%;

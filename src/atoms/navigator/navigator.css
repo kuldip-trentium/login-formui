@@ -3,7 +3,7 @@
 .already-subscribe-login {
   background: var(
     --fill-gradinet-3,
-    linear-gradient(135deg, #251041, 0%, #141a3c 100%)
+    linear-gradient(135deg, #1f153e, 0%, #141440 100%)
   );
   border-radius: 35px 35px 0px 0px;
   background-size: cover;

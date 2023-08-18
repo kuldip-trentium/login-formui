@@ -1,16 +1,16 @@
 import React from 'react'
-import LoginForm from '../../organics/loginForm/LoginForm'
-import './logintemplate.css'
+import RegistartionForm from '../../organics/registrationform/Register'
+import './registration.css'
 
-const LoginTemplate = () => {
+const Registration = () => {
   return (
     <div className='screen'>
       <div className='login'>
         <div className='background-shadow-img'>
         </div>
-        <LoginForm />
+        <RegistartionForm />
       </div>
     </div>
   )
 }
-export default LoginTemplate
+export default Registration
