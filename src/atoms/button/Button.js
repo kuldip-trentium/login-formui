@@ -3,11 +3,11 @@ import './button.css'
 
 const Button = (props) => {
   return (
-    <div className={props.classAddOn1 || 'btn-with-text'}>
-      <button className={props.classAddOn2 || 'regular-btn'}
+    <div className={props.loginButtons || `btn-with-text ${props.classAddOn || ''}`}>
+      <button className={props.formButtons || `regular-btn ${props.classAddOn || ''}`}
         type={props.type || ''}>
-        {props.img && <img src={props.img} alt={props.alt} />}
-        <span>{props.text}</span>
+        {props.img && <img src={props.img || ''} alt={props.img || ''} />}
+        <span>{props.text || ''}</span>
       </button>
     </div>
   )
