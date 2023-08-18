@@ -14,7 +14,7 @@ const Register = () => {
       <div className='background-light' />
       <img src={profile} alt='profile-img' className='profile-img' />
       <div className='login-form-fields'>
-        <Text text='Create an Account' classAddOn='form-heading' />
+        <Text text='Create an Account' headingStyle='form-heading' />
         <RegisterSocialMedia />
         <Seperator text='Or' />
         <Form />

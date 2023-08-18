@@ -2,7 +2,7 @@ import React from 'react'
 import './text.css'
 const Text = (props) => {
   return (
-    <span className={props.classAddOn || 'normal-text'}>{props.text}</span>
+    <span className={props.headingStyle || `normal-text ${props.classAddOn}`}>{props.text}</span>
   )
 }
 
