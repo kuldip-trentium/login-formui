@@ -3,23 +3,22 @@ import Input from '../../atoms/input/Input'
 import './registrationform.css'
 import Button from '../../atoms/button/Button'
 import {Formik, Form} from 'formik';
-import * as Yup from 'yup';
 import user from '../../assets/images/User.svg'
+import {registrationValidation} from '../../validation/validation';
 const RegistartionForm = () => {
   const handleSubmit = (values) => {
     console.log(values);
   };
+
+  const initialValue = {
+    name: '',
+    email: '',
+  }
   return (
     <div className='custom-inputs'>
       <Formik
-        initialValues={{
-          name: '',
-          email: '',
-        }}
-        validationSchema={Yup.object({
-          name: Yup.string().required('Name is required'),
-          email: Yup.string().email('Invalid email address').required('Email is required'),
-        })}
+        initialValues={initialValue}
+        validationSchema={registrationValidation}
         onSubmit={handleSubmit}
       >
         <Form>
