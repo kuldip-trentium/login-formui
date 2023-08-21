@@ -1,0 +1,30 @@
+.background-shadow-img {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  opacity: 1;
+  background: var(
+    --fill-gradinet-3,
+    linear-gradient(135deg, rgba(23, 15, 40, 255), rgba(12, 11, 40, 255))
+  );
+  height: 20px;
+  border-radius: 20px 20px 00px 00px;
+  @media (max-width: 1800px) {
+    width: 96%;
+  }
+  @media (max-width: 800px) {
+    width: 95%;
+  }
+  @media (max-width: 600px) {
+    width: 91%;
+  }
+}
+
+.login {
+  margin: auto;
+  position: relative;
+  background-color: var(--login-page-color);
+  height: 100%;
+}

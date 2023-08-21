@@ -1,0 +1,9 @@
+.custom-inputs form {
+  margin: 10px auto;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 00px;
+  }
+}

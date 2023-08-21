@@ -1,0 +1,74 @@
+@import '../../assets/css/variable.css';
+
+.name-email-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--input-bg-color) !important;
+  gap: 10px;
+  padding: 20px 50px 20px 0px;
+  margin: 4px auto;
+  @media (max-width: 1800px) {
+    width: 82%;
+    margin: 50px auto;
+  }
+  @media (max-width: 800px) {
+    width: 81%;
+    margin: 5px auto;
+  }
+  @media (max-width: 600px) {
+    width: 74%;
+    margin: 4px auto;
+  }
+}
+.formik-input {
+  color: var(--primary-color);
+  background: transparent;
+}
+
+.name-email-input input {
+  background: none;
+  border: none;
+  width: 80%;
+
+  @media (max-width: 1800px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1500px) {
+    font-size: 22px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 900px) {
+    font-size: 13px;
+  }
+  @media (max-width: 500px) {
+    font-size: 15px;
+  }
+  @media (max-width: 400px) {
+    font-size: 13px;
+  }
+}
+
+.name-email-input input:focus {
+  border: none;
+}
+
+.name-email-input input::placeholder {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.name-email-input input:focus {
+  outline: none;
+  border-color: transparent;
+  color: var(--primary-color);
+}
+.error-message {
+  color: #c70039;
+  width: 87%;
+  text-align: left;
+  margin: auto;
+}
