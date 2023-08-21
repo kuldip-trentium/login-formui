@@ -12,21 +12,21 @@
     padding-top: 250px;
   }
   @media (max-width: 500px) {
-    padding-top: 230px;
+    padding-top: 220px;
   }
   @media (max-width: 400px) {
-    padding-top: 210px;
+    padding-top: 200px;
   }
 }
 .profile-img {
   position: absolute;
-  top: 18%;
+  top: 16%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .background-light {
   position: absolute;
-  top: 18%;
+  top: 16%;
   left: 0%;
   width: 100vw;
   height: 82%;

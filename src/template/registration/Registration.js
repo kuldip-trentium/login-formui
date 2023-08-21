@@ -6,8 +6,7 @@ const Registration = () => {
   return (
     <div className='screen'>
       <div className='login'>
-        <div className='background-shadow-img'>
-        </div>
+        <div className='background-shadow-img' />
         <RegistartionForm />
       </div>
     </div>
