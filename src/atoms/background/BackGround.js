@@ -4,7 +4,6 @@ import './background.css'
 const BackGround = () => {
   return (
     <div className='login-form' />
-
   )
 }
 
