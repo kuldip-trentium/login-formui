@@ -4,7 +4,7 @@ import facebook from '../../../src/assets/images/Facebook.svg'
 import Button from '../../atoms/button/Button'
 import './registerwithsocialmedia.css'
 
-const RegisterWithResourse = () => {
+const RegisterWithResource = () => {
   return (
     <div className='login-outside-resource'>
       <Button img={google} text='Continue with Google' btnWithImg='btn-img' formButtons='login-form-btn' />
@@ -13,4 +13,4 @@ const RegisterWithResourse = () => {
   )
 }
 
-export default RegisterWithResourse
+export default RegisterWithResource

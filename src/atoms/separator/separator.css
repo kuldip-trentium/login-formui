@@ -1,6 +1,6 @@
 @import '../../assets/css/variable.css';
 
-.seperator {
+.separator {
   margin: 35px 0px;
   @media (max-width: 1800px) {
     margin: 100px 0px;

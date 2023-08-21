@@ -1,12 +1,12 @@
 import React from 'react'
-import './seperator.css'
+import './separator.css'
 
-const Seperator = (props) => {
+const Separator = (props) => {
   return (
-    <div className='seperator'>
+    <div className='separator'>
       <p className={props.classAddOn || 'or-text'}>{props.text}</p>
     </div>
   )
 }
 
-export default Seperator
+export default Separator
