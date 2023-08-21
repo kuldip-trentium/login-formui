@@ -9,7 +9,6 @@ const RegistartionForm = () => {
   const handleSubmit = (values) => {
     console.log(values);
   };
-
   const initialValue = {
     name: '',
     email: '',
